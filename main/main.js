@@ -22,7 +22,7 @@ module.exports = function main(str) {
   arr.forEach(item => {
     SaveNumbers.push(item)
   })
-  console.log(SaveNumbers, "保存单个数字") // ["9","1","0"]
+  //   console.log(SaveNumbers, "保存单个数字") // ["9","1","0"]
 
   //每个数字由3行lcd表示
   for (let i = 0; i < 3; i++) {
@@ -41,5 +41,6 @@ module.exports = function main(str) {
       }
     }
   }
-  console.log(rst)
+  //   console.log(rst)
+  return rst
 }
